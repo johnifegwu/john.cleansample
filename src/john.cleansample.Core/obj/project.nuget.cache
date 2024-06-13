@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "n5et/y4dl+M=",
+  "success": true,
+  "projectFilePath": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Core\\john.cleansample.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\johni\\.nuget\\packages\\ardalis.guardclauses\\4.5.0\\ardalis.guardclauses.4.5.0.nupkg.sha512",
+    "C:\\Users\\johni\\.nuget\\packages\\ardalis.result\\8.0.0\\ardalis.result.8.0.0.nupkg.sha512",
+    "C:\\Users\\johni\\.nuget\\packages\\ardalis.sharedkernel\\1.4.0\\ardalis.sharedkernel.1.4.0.nupkg.sha512",
+    "C:\\Users\\johni\\.nuget\\packages\\ardalis.smartenum\\8.0.0\\ardalis.smartenum.8.0.0.nupkg.sha512",
+    "C:\\Users\\johni\\.nuget\\packages\\ardalis.specification\\8.0.0\\ardalis.specification.8.0.0.nupkg.sha512",
+    "C:\\Users\\johni\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\johni\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\johni\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\johni\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\johni\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\johni\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\johni\\.nuget\\packages\\system.text.json\\7.0.3\\system.text.json.7.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

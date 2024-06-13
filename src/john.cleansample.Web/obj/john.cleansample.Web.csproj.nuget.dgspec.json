@@ -1,0 +1,621 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Web\\john.cleansample.Web.csproj": {}
+  },
+  "projects": {
+    "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Core\\john.cleansample.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Core\\john.cleansample.Core.csproj",
+        "projectName": "john.cleansample.Core",
+        "projectPath": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Core\\john.cleansample.Core.csproj",
+        "packagesPath": "C:\\Users\\johni\\.nuget\\packages\\",
+        "outputPath": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\NuGet.Config",
+          "C:\\Users\\johni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Ardalis.GuardClauses": {
+              "target": "Package",
+              "version": "[4.5.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Ardalis.Result": {
+              "target": "Package",
+              "version": "[8.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Ardalis.SharedKernel": {
+              "target": "Package",
+              "version": "[1.4.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Ardalis.SmartEnum": {
+              "target": "Package",
+              "version": "[8.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Ardalis.Specification": {
+              "target": "Package",
+              "version": "[8.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Ardalis.GuardClauses": "4.5.0",
+            "Ardalis.HttpClientTestExtensions": "4.2.0",
+            "Ardalis.ListStartupServices": "1.1.4",
+            "Ardalis.Result": "8.0.0",
+            "Ardalis.Result.AspNetCore": "8.0.0",
+            "Ardalis.SharedKernel": "1.4.0",
+            "Ardalis.SmartEnum": "8.0.0",
+            "Ardalis.Specification": "8.0.0",
+            "Ardalis.Specification.EntityFrameworkCore": "8.0.0",
+            "coverlet.collector": "6.0.1",
+            "FastEndpoints": "5.23.0",
+            "FastEndpoints.ApiExplorer": "2.2.0",
+            "FastEndpoints.Swagger": "5.23.0",
+            "FastEndpoints.Swagger.Swashbuckle": "2.2.0",
+            "FluentAssertions": "6.12.0",
+            "MailKit": "4.4.0",
+            "MediatR": "12.2.0",
+            "Microsoft.AspNetCore.Mvc.Testing": "8.0.2",
+            "Microsoft.EntityFrameworkCore.Design": "8.0.2",
+            "Microsoft.EntityFrameworkCore.InMemory": "8.0.2",
+            "Microsoft.EntityFrameworkCore.Relational": "8.0.2",
+            "Microsoft.EntityFrameworkCore.Sqlite": "8.0.2",
+            "Microsoft.EntityFrameworkCore.SqlServer": "8.0.2",
+            "Microsoft.EntityFrameworkCore.Tools": "8.0.2",
+            "Microsoft.Extensions.Configuration": "8.0.0",
+            "Microsoft.Extensions.Logging": "8.0.0",
+            "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0",
+            "Microsoft.NET.Test.Sdk": "17.9.0",
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.1",
+            "NSubstitute": "5.1.0",
+            "ReportGenerator": "5.2.2",
+            "Serilog.AspNetCore": "8.0.1",
+            "SQLite": "3.13.0",
+            "Swashbuckle.AspNetCore": "6.5.0",
+            "Swashbuckle.AspNetCore.Annotations": "6.5.0",
+            "xunit": "2.7.0",
+            "xunit.runner.visualstudio": "2.5.7"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Infrastructure\\john.cleansample.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Infrastructure\\john.cleansample.Infrastructure.csproj",
+        "projectName": "john.cleansample.Infrastructure",
+        "projectPath": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Infrastructure\\john.cleansample.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\johni\\.nuget\\packages\\",
+        "outputPath": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\NuGet.Config",
+          "C:\\Users\\johni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Core\\john.cleansample.Core.csproj": {
+                "projectPath": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Core\\john.cleansample.Core.csproj"
+              },
+              "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.UseCases\\john.cleansample.UseCases.csproj": {
+                "projectPath": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.UseCases\\john.cleansample.UseCases.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Ardalis.SharedKernel": {
+              "target": "Package",
+              "version": "[1.4.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Ardalis.Specification.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.4.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.2, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.2, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.2, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.2, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[8.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "SQLite": {
+              "target": "Package",
+              "version": "[3.13.0, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Ardalis.GuardClauses": "4.5.0",
+            "Ardalis.HttpClientTestExtensions": "4.2.0",
+            "Ardalis.ListStartupServices": "1.1.4",
+            "Ardalis.Result": "8.0.0",
+            "Ardalis.Result.AspNetCore": "8.0.0",
+            "Ardalis.SharedKernel": "1.4.0",
+            "Ardalis.SmartEnum": "8.0.0",
+            "Ardalis.Specification": "8.0.0",
+            "Ardalis.Specification.EntityFrameworkCore": "8.0.0",
+            "coverlet.collector": "6.0.1",
+            "FastEndpoints": "5.23.0",
+            "FastEndpoints.ApiExplorer": "2.2.0",
+            "FastEndpoints.Swagger": "5.23.0",
+            "FastEndpoints.Swagger.Swashbuckle": "2.2.0",
+            "FluentAssertions": "6.12.0",
+            "MailKit": "4.4.0",
+            "MediatR": "12.2.0",
+            "Microsoft.AspNetCore.Mvc.Testing": "8.0.2",
+            "Microsoft.EntityFrameworkCore.Design": "8.0.2",
+            "Microsoft.EntityFrameworkCore.InMemory": "8.0.2",
+            "Microsoft.EntityFrameworkCore.Relational": "8.0.2",
+            "Microsoft.EntityFrameworkCore.Sqlite": "8.0.2",
+            "Microsoft.EntityFrameworkCore.SqlServer": "8.0.2",
+            "Microsoft.EntityFrameworkCore.Tools": "8.0.2",
+            "Microsoft.Extensions.Configuration": "8.0.0",
+            "Microsoft.Extensions.Logging": "8.0.0",
+            "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0",
+            "Microsoft.NET.Test.Sdk": "17.9.0",
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.1",
+            "NSubstitute": "5.1.0",
+            "ReportGenerator": "5.2.2",
+            "Serilog.AspNetCore": "8.0.1",
+            "SQLite": "3.13.0",
+            "Swashbuckle.AspNetCore": "6.5.0",
+            "Swashbuckle.AspNetCore.Annotations": "6.5.0",
+            "xunit": "2.7.0",
+            "xunit.runner.visualstudio": "2.5.7"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.UseCases\\john.cleansample.UseCases.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.UseCases\\john.cleansample.UseCases.csproj",
+        "projectName": "john.cleansample.UseCases",
+        "projectPath": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.UseCases\\john.cleansample.UseCases.csproj",
+        "packagesPath": "C:\\Users\\johni\\.nuget\\packages\\",
+        "outputPath": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.UseCases\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\NuGet.Config",
+          "C:\\Users\\johni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Core\\john.cleansample.Core.csproj": {
+                "projectPath": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Core\\john.cleansample.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Ardalis.Result": {
+              "target": "Package",
+              "version": "[8.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.2, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Ardalis.GuardClauses": "4.5.0",
+            "Ardalis.HttpClientTestExtensions": "4.2.0",
+            "Ardalis.ListStartupServices": "1.1.4",
+            "Ardalis.Result": "8.0.0",
+            "Ardalis.Result.AspNetCore": "8.0.0",
+            "Ardalis.SharedKernel": "1.4.0",
+            "Ardalis.SmartEnum": "8.0.0",
+            "Ardalis.Specification": "8.0.0",
+            "Ardalis.Specification.EntityFrameworkCore": "8.0.0",
+            "coverlet.collector": "6.0.1",
+            "FastEndpoints": "5.23.0",
+            "FastEndpoints.ApiExplorer": "2.2.0",
+            "FastEndpoints.Swagger": "5.23.0",
+            "FastEndpoints.Swagger.Swashbuckle": "2.2.0",
+            "FluentAssertions": "6.12.0",
+            "MailKit": "4.4.0",
+            "MediatR": "12.2.0",
+            "Microsoft.AspNetCore.Mvc.Testing": "8.0.2",
+            "Microsoft.EntityFrameworkCore.Design": "8.0.2",
+            "Microsoft.EntityFrameworkCore.InMemory": "8.0.2",
+            "Microsoft.EntityFrameworkCore.Relational": "8.0.2",
+            "Microsoft.EntityFrameworkCore.Sqlite": "8.0.2",
+            "Microsoft.EntityFrameworkCore.SqlServer": "8.0.2",
+            "Microsoft.EntityFrameworkCore.Tools": "8.0.2",
+            "Microsoft.Extensions.Configuration": "8.0.0",
+            "Microsoft.Extensions.Logging": "8.0.0",
+            "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0",
+            "Microsoft.NET.Test.Sdk": "17.9.0",
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.1",
+            "NSubstitute": "5.1.0",
+            "ReportGenerator": "5.2.2",
+            "Serilog.AspNetCore": "8.0.1",
+            "SQLite": "3.13.0",
+            "Swashbuckle.AspNetCore": "6.5.0",
+            "Swashbuckle.AspNetCore.Annotations": "6.5.0",
+            "xunit": "2.7.0",
+            "xunit.runner.visualstudio": "2.5.7"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Web\\john.cleansample.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Web\\john.cleansample.Web.csproj",
+        "projectName": "john.cleansample.Web",
+        "projectPath": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Web\\john.cleansample.Web.csproj",
+        "packagesPath": "C:\\Users\\johni\\.nuget\\packages\\",
+        "outputPath": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\NuGet.Config",
+          "C:\\Users\\johni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Infrastructure\\john.cleansample.Infrastructure.csproj": {
+                "projectPath": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Infrastructure\\john.cleansample.Infrastructure.csproj"
+              },
+              "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.UseCases\\john.cleansample.UseCases.csproj": {
+                "projectPath": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.UseCases\\john.cleansample.UseCases.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Ardalis.ListStartupServices": {
+              "target": "Package",
+              "version": "[1.1.4, )",
+              "versionCentrallyManaged": true
+            },
+            "Ardalis.Result": {
+              "target": "Package",
+              "version": "[8.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Ardalis.Result.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.0, )",
+              "versionCentrallyManaged": true
+            },
+            "FastEndpoints": {
+              "target": "Package",
+              "version": "[5.23.0, )",
+              "versionCentrallyManaged": true
+            },
+            "FastEndpoints.Swagger": {
+              "target": "Package",
+              "version": "[5.23.0, )",
+              "versionCentrallyManaged": true
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[8.0.2, )",
+              "versionCentrallyManaged": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )",
+              "versionCentrallyManaged": true
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.1, )",
+              "versionCentrallyManaged": true
+            }
+          },
+          "centralPackageVersions": {
+            "Ardalis.GuardClauses": "4.5.0",
+            "Ardalis.HttpClientTestExtensions": "4.2.0",
+            "Ardalis.ListStartupServices": "1.1.4",
+            "Ardalis.Result": "8.0.0",
+            "Ardalis.Result.AspNetCore": "8.0.0",
+            "Ardalis.SharedKernel": "1.4.0",
+            "Ardalis.SmartEnum": "8.0.0",
+            "Ardalis.Specification": "8.0.0",
+            "Ardalis.Specification.EntityFrameworkCore": "8.0.0",
+            "coverlet.collector": "6.0.1",
+            "FastEndpoints": "5.23.0",
+            "FastEndpoints.ApiExplorer": "2.2.0",
+            "FastEndpoints.Swagger": "5.23.0",
+            "FastEndpoints.Swagger.Swashbuckle": "2.2.0",
+            "FluentAssertions": "6.12.0",
+            "MailKit": "4.4.0",
+            "MediatR": "12.2.0",
+            "Microsoft.AspNetCore.Mvc.Testing": "8.0.2",
+            "Microsoft.EntityFrameworkCore.Design": "8.0.2",
+            "Microsoft.EntityFrameworkCore.InMemory": "8.0.2",
+            "Microsoft.EntityFrameworkCore.Relational": "8.0.2",
+            "Microsoft.EntityFrameworkCore.Sqlite": "8.0.2",
+            "Microsoft.EntityFrameworkCore.SqlServer": "8.0.2",
+            "Microsoft.EntityFrameworkCore.Tools": "8.0.2",
+            "Microsoft.Extensions.Configuration": "8.0.0",
+            "Microsoft.Extensions.Logging": "8.0.0",
+            "Microsoft.Extensions.Logging.Abstractions": "8.0.0",
+            "Microsoft.Extensions.Options.ConfigurationExtensions": "8.0.0",
+            "Microsoft.NET.Test.Sdk": "17.9.0",
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.1",
+            "NSubstitute": "5.1.0",
+            "ReportGenerator": "5.2.2",
+            "Serilog.AspNetCore": "8.0.1",
+            "SQLite": "3.13.0",
+            "Swashbuckle.AspNetCore": "6.5.0",
+            "Swashbuckle.AspNetCore.Annotations": "6.5.0",
+            "xunit": "2.7.0",
+            "xunit.runner.visualstudio": "2.5.7"
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
