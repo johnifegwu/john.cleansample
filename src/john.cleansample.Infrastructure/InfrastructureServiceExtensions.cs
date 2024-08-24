@@ -1,5 +1,7 @@
 ﻿using Ardalis.GuardClauses;
 using Ardalis.SharedKernel;
+using EFCore.UnitOfWorkCore.Extentions;
+using EFCore.UnitOfWorkCore.Interfaces;
 using john.cleansample.Core.Interfaces;
 using john.cleansample.Core.Services;
 using john.cleansample.Infrastructure.Data;
@@ -23,6 +25,10 @@ public static class InfrastructureServiceExtensions
     Guard.Against.Null(connectionString);
     services.AddDbContext<AppDbContext>(options =>
      options.UseSqlite(connectionString));
+
+    services.AddTransient<IJayDbContext, AppDbContext>();
+
+    services.AddEFCoreUnitOfWork();
 
     services.AddScoped(typeof(IRepository<>), typeof(EfRepository<>));
     services.AddScoped(typeof(IReadRepository<>), typeof(EfRepository<>));

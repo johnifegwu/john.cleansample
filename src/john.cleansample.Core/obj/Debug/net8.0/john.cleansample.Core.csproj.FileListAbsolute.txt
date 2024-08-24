@@ -1,0 +1,13 @@
+E:\Johni\CLEANArchitecture\ASPNET_CLEAN_Example\john.cleansample\src\john.cleansample.Core\bin\Debug\net8.0\john.cleansample.Core.deps.json
+E:\Johni\CLEANArchitecture\ASPNET_CLEAN_Example\john.cleansample\src\john.cleansample.Core\bin\Debug\net8.0\john.cleansample.Core.dll
+E:\Johni\CLEANArchitecture\ASPNET_CLEAN_Example\john.cleansample\src\john.cleansample.Core\bin\Debug\net8.0\john.cleansample.Core.pdb
+E:\Johni\CLEANArchitecture\ASPNET_CLEAN_Example\john.cleansample\src\john.cleansample.Core\obj\Debug\net8.0\john.cleansample.Core.csproj.AssemblyReference.cache
+E:\Johni\CLEANArchitecture\ASPNET_CLEAN_Example\john.cleansample\src\john.cleansample.Core\obj\Debug\net8.0\john.cleansample.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Johni\CLEANArchitecture\ASPNET_CLEAN_Example\john.cleansample\src\john.cleansample.Core\obj\Debug\net8.0\john.cleansample.Core.AssemblyInfoInputs.cache
+E:\Johni\CLEANArchitecture\ASPNET_CLEAN_Example\john.cleansample\src\john.cleansample.Core\obj\Debug\net8.0\john.cleansample.Core.AssemblyInfo.cs
+E:\Johni\CLEANArchitecture\ASPNET_CLEAN_Example\john.cleansample\src\john.cleansample.Core\obj\Debug\net8.0\john.cleansample.Core.csproj.CoreCompileInputs.cache
+E:\Johni\CLEANArchitecture\ASPNET_CLEAN_Example\john.cleansample\src\john.cleansample.Core\obj\Debug\net8.0\john.cleansample.Core.sourcelink.json
+E:\Johni\CLEANArchitecture\ASPNET_CLEAN_Example\john.cleansample\src\john.cleansample.Core\obj\Debug\net8.0\john.cleansample.Core.dll
+E:\Johni\CLEANArchitecture\ASPNET_CLEAN_Example\john.cleansample\src\john.cleansample.Core\obj\Debug\net8.0\refint\john.cleansample.Core.dll
+E:\Johni\CLEANArchitecture\ASPNET_CLEAN_Example\john.cleansample\src\john.cleansample.Core\obj\Debug\net8.0\john.cleansample.Core.pdb
+E:\Johni\CLEANArchitecture\ASPNET_CLEAN_Example\john.cleansample\src\john.cleansample.Core\obj\Debug\net8.0\ref\john.cleansample.Core.dll

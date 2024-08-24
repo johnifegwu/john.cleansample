@@ -1,10 +1,12 @@
 ﻿using System.Reflection;
 using Ardalis.SharedKernel;
+using EFCore.UnitOfWorkCore.Interfaces;
 using john.cleansample.Core.ContributorAggregate;
+using john.cleansample.Infrastructure.Data.Config;
 using Microsoft.EntityFrameworkCore;
 
 namespace john.cleansample.Infrastructure.Data;
-public class AppDbContext : DbContext
+public class AppDbContext : DbContext, IJayDbContext
 {
   private readonly IDomainEventDispatcher? _dispatcher;
 
@@ -20,6 +22,11 @@ public class AppDbContext : DbContext
   protected override void OnModelCreating(ModelBuilder modelBuilder)
   {
     base.OnModelCreating(modelBuilder);
+
+    //Use the bellow line to apply configuration for each entity
+    //modelBuilder.ApplyConfiguration(new ContributorConfiguration());
+
+    //Use the bellow line to apply configuration for all entities
     modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
   }
 

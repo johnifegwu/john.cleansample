@@ -1,0 +1,67 @@
+2024-06-15 15:44:25.231 +01:00 [INF] Registered 5 endpoints in 5,282 milliseconds.
+2024-06-15 15:44:29.549 +01:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2024-06-15 15:44:29.728 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Contributors" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Contributors" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Status" INTEGER NOT NULL,
+    "PhoneNumber_CountryCode" TEXT NULL,
+    "PhoneNumber_Number" TEXT NULL,
+    "PhoneNumber_Extension" TEXT NULL
+);
+2024-06-15 15:44:30.244 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Contributors" AS "c")
+2024-06-15 15:44:30.385 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Name", "c"."Status", "c"."PhoneNumber_CountryCode", "c"."PhoneNumber_Extension", "c"."PhoneNumber_Number"
+FROM "Contributors" AS "c"
+2024-06-15 15:44:30.675 +01:00 [INF] Executed DbCommand (7ms) [Parameters=[@p0='?' (Size = 7), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Contributors" ("Name", "Status")
+VALUES (@p0, @p1)
+RETURNING "Id";
+2024-06-15 15:44:30.724 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@p0='?' (Size = 8), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Contributors" ("Name", "Status")
+VALUES (@p0, @p1)
+RETURNING "Id";
+2024-06-15 15:44:31.145 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-15 15:44:31.145 +01:00 [INF] Hosting environment: Development
+2024-06-15 15:44:31.145 +01:00 [INF] Content root path: E:\Johni\CLEANArchitecture\ASPNET_CLEAN_Example\john.cleansample\src\john.cleansample.Web
+2024-06-15 15:44:31.590 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger - null null
+2024-06-15 15:44:32.170 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/index.html - null null
+2024-06-15 15:44:32.189 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger - 302 null null 606.7388ms
+2024-06-15 15:44:32.917 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/swagger-ui.css - null null
+2024-06-15 15:44:32.917 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/index.html - 200 null text/html; charset=utf-8 746.8981ms
+2024-06-15 15:44:32.926 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/index.css - null null
+2024-06-15 15:44:32.933 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/swagger-ui-bundle.js - null null
+2024-06-15 15:44:32.933 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/swagger-ui-standalone-preset.js - null null
+2024-06-15 15:44:32.939 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-15 15:44:32.956 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 16.8072ms
+2024-06-15 15:44:33.006 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-06-15 15:44:33.006 +01:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2024-06-15 15:44:33.006 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-06-15 15:44:33.007 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/index.css - 200 218 text/css 84.7505ms
+2024-06-15 15:44:33.007 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-06-15 15:44:33.017 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_vs/browserLink - null null
+2024-06-15 15:44:33.017 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/swagger-ui-standalone-preset.js - 200 230642 text/javascript 83.7458ms
+2024-06-15 15:44:33.017 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/swagger-ui.css - 200 151213 text/css 99.3752ms
+2024-06-15 15:44:33.063 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/swagger-ui-bundle.js - 200 1385018 text/javascript 135.765ms
+2024-06-15 15:44:33.180 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_vs/browserLink - 200 null text/javascript; charset=UTF-8 163.998ms
+2024-06-15 15:44:33.891 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - null null
+2024-06-15 15:44:33.947 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/favicon-32x32.png - null null
+2024-06-15 15:44:33.951 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-06-15 15:44:33.960 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/favicon-32x32.png - 200 628 image/png 13.6613ms
+2024-06-15 15:44:34.034 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-06-15 15:44:35.378 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 1486.9805ms
+2024-06-15 15:45:11.467 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/Contributors - null null
+2024-06-15 15:45:11.471 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-06-15 15:45:11.482 +01:00 [INF] Executing endpoint 'HTTP: GET /Contributors'
+2024-06-15 15:45:11.601 +01:00 [INF] Handling ListContributorsQuery
+2024-06-15 15:45:11.602 +01:00 [INF] Property Skip : null
+2024-06-15 15:45:11.602 +01:00 [INF] Property Take : null
+2024-06-15 15:45:11.785 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT Id, Name, PhoneNumber_Number AS PhoneNumber FROM Contributors
+2024-06-15 15:45:11.796 +01:00 [INF] Handled ListContributorsQuery with Ardalis.Result.Result`1[System.Collections.Generic.IEnumerable`1[john.cleansample.UseCases.Contributors.ContributorDTO]] in 193 ms
+2024-06-15 15:45:11.841 +01:00 [INF] Executed endpoint 'HTTP: GET /Contributors'
+2024-06-15 15:45:11.851 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/Contributors - 200 null application/json 383.9194ms

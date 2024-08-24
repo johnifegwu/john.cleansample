@@ -1,0 +1,406 @@
+2024-08-24 21:02:06.569 +01:00 [INF] Registered 5 endpoints in 5,626 milliseconds.
+2024-08-24 21:02:08.414 +01:00 [ERR] An error occurred seeding the DB. Cannot resolve scoped service 'Ardalis.SharedKernel.IDomainEventDispatcher' from root provider.
+System.InvalidOperationException: Cannot resolve scoped service 'Ardalis.SharedKernel.IDomainEventDispatcher' from root provider.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteValidator.ValidateResolution(ServiceCallSite callSite, IServiceScope scope, IServiceScope rootScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.EntityFrameworkCore.Internal.DbContextPool`1.<>c__DisplayClass6_0.<CreateActivator>b__2()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextPool`1.Rent()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextLease..ctor(IDbContextPool contextPool, Boolean standalone)
+   at Microsoft.EntityFrameworkCore.Internal.ScopedDbContextLease`1..ctor(IDbContextPool`1 contextPool)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__5`2.<AddDbContextPool>b__5_0(IServiceProvider sp)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Program.<<Main>$>g__SeedDatabase|0_3(WebApplication app) in E:\Johni\CLEANArchitecture\ASPNET_CLEAN_Example\john.cleansample\src\john.cleansample.Web\Program.cs:line 90
+2024-08-24 21:02:09.040 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-08-24 21:02:09.452 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger - null null
+2024-08-24 21:02:09.505 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-24 21:02:09.505 +01:00 [INF] Hosting environment: Development
+2024-08-24 21:02:09.514 +01:00 [INF] Content root path: E:\Johni\CLEANArchitecture\ASPNET_CLEAN_Example\john.cleansample\src\john.cleansample.Web
+2024-08-24 21:02:09.967 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/index.html - null null
+2024-08-24 21:02:09.981 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger - 302 null null 531.0239ms
+2024-08-24 21:02:10.613 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/index.html - 200 null text/html; charset=utf-8 645.8504ms
+2024-08-24 21:02:10.624 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/swagger-ui.css - null null
+2024-08-24 21:02:10.624 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/swagger-ui-standalone-preset.js - null null
+2024-08-24 21:02:10.632 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/index.css - null null
+2024-08-24 21:02:10.638 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-24 21:02:10.643 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/swagger-ui-bundle.js - null null
+2024-08-24 21:02:10.649 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 9.9411ms
+2024-08-24 21:02:10.681 +01:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-08-24 21:02:10.681 +01:00 [INF] Sending file. Request path: '/index.css'. Physical path: 'N/A'
+2024-08-24 21:02:10.688 +01:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-08-24 21:02:10.690 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/index.css - 200 218 text/css 58.4857ms
+2024-08-24 21:02:10.694 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/swagger-ui.css - 200 151213 text/css 72.0776ms
+2024-08-24 21:02:10.698 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/swagger-ui-standalone-preset.js - 200 230642 text/javascript 75.8071ms
+2024-08-24 21:02:10.698 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_vs/browserLink - null null
+2024-08-24 21:02:10.714 +01:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-08-24 21:02:10.762 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/swagger-ui-bundle.js - 200 1385018 text/javascript 119.1616ms
+2024-08-24 21:02:10.794 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_vs/browserLink - 200 null text/javascript; charset=UTF-8 96.0566ms
+2024-08-24 21:02:11.437 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - null null
+2024-08-24 21:02:11.479 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/favicon-32x32.png - null null
+2024-08-24 21:02:11.482 +01:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-08-24 21:02:11.482 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/favicon-32x32.png - 200 628 image/png 3.2223ms
+2024-08-24 21:02:12.899 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 1461.6891ms
+2024-08-24 21:02:24.609 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/Contributors - null null
+2024-08-24 21:02:24.614 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-08-24 21:02:24.623 +01:00 [INF] Executing endpoint 'HTTP: GET /Contributors'
+2024-08-24 21:02:24.733 +01:00 [INF] Handling ListContributorsQuery
+2024-08-24 21:02:24.734 +01:00 [INF] Property Skip : null
+2024-08-24 21:02:24.734 +01:00 [INF] Property Take : null
+2024-08-24 21:02:24.831 +01:00 [INF] Executed endpoint 'HTTP: GET /Contributors'
+2024-08-24 21:02:24.835 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot resolve scoped service 'Ardalis.SharedKernel.IDomainEventDispatcher' from root provider.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.EntityFrameworkCore.Internal.DbContextPool`1.<>c__DisplayClass6_0.<CreateActivator>b__2()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextPool`1.Rent()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextLease..ctor(IDbContextPool contextPool, Boolean standalone)
+   at Microsoft.EntityFrameworkCore.Internal.ScopedDbContextLease`1..ctor(IDbContextPool`1 contextPool)
+   at InvokeStub_ScopedDbContextLease`1..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__5`2.<AddDbContextPool>b__5_0(IServiceProvider sp)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_0.<Handle>g__Handler|0()
+   at Ardalis.SharedKernel.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at john.cleansample.Web.Contributors.List.HandleAsync(CancellationToken cancellationToken) in E:\Johni\CLEANArchitecture\ASPNET_CLEAN_Example\john.cleansample\src\john.cleansample.Web\Contributors\List.cs:line 25
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at NSwag.AspNetCore.Middlewares.SwaggerUiIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.RedirectToIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.OpenApiDocumentMiddleware.Invoke(HttpContext context)
+   at Ardalis.ListStartupServices.ShowAllServicesMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-24 21:02:24.853 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/Contributors - 500 null text/plain; charset=utf-8 244.5322ms
+2024-08-24 21:02:57.441 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:57678/Contributors - application/json 62
+2024-08-24 21:02:57.442 +01:00 [INF] Executing endpoint 'HTTP: POST /Contributors'
+2024-08-24 21:02:57.499 +01:00 [INF] Executed endpoint 'HTTP: POST /Contributors'
+2024-08-24 21:02:57.500 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:57678/Contributors - 400 null application/problem+json 59.4792ms
+2024-08-24 21:03:41.464 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:57678/Contributors - application/json 61
+2024-08-24 21:03:41.465 +01:00 [INF] Executing endpoint 'HTTP: POST /Contributors'
+2024-08-24 21:03:41.488 +01:00 [INF] Executed endpoint 'HTTP: POST /Contributors'
+2024-08-24 21:03:41.489 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:57678/Contributors - 400 null application/problem+json 24.73ms
+2024-08-24 21:04:34.177 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:57678/Contributors - application/json 59
+2024-08-24 21:04:34.177 +01:00 [INF] Executing endpoint 'HTTP: POST /Contributors'
+2024-08-24 21:04:34.188 +01:00 [INF] Executed endpoint 'HTTP: POST /Contributors'
+2024-08-24 21:04:34.189 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:57678/Contributors - 400 null application/problem+json 13.8051ms
+2024-08-24 21:04:48.718 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:57678/Contributors - application/json 61
+2024-08-24 21:04:48.719 +01:00 [INF] Executing endpoint 'HTTP: POST /Contributors'
+2024-08-24 21:04:48.766 +01:00 [INF] Handling CreateContributorCommand
+2024-08-24 21:04:48.766 +01:00 [INF] Property Name : Contributor Name
+2024-08-24 21:04:48.767 +01:00 [INF] Property PhoneNumber : 80634612
+2024-08-24 21:04:48.811 +01:00 [INF] Executed endpoint 'HTTP: POST /Contributors'
+2024-08-24 21:04:48.813 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot resolve scoped service 'Ardalis.SharedKernel.IDomainEventDispatcher' from root provider.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.EntityFrameworkCore.Internal.DbContextPool`1.<>c__DisplayClass6_0.<CreateActivator>b__2()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextPool`1.Rent()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextLease..ctor(IDbContextPool contextPool, Boolean standalone)
+   at Microsoft.EntityFrameworkCore.Internal.ScopedDbContextLease`1..ctor(IDbContextPool`1 contextPool)
+   at InvokeStub_ScopedDbContextLease`1..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__5`2.<AddDbContextPool>b__5_0(IServiceProvider sp)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_0.<Handle>g__Handler|0()
+   at Ardalis.SharedKernel.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at john.cleansample.Web.Contributors.Create.HandleAsync(CreateContributorRequest request, CancellationToken cancellationToken) in E:\Johni\CLEANArchitecture\ASPNET_CLEAN_Example\john.cleansample\src\john.cleansample.Web\Contributors\Create.cs:line 33
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at NSwag.AspNetCore.Middlewares.SwaggerUiIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.RedirectToIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.OpenApiDocumentMiddleware.Invoke(HttpContext context)
+   at Ardalis.ListStartupServices.ShowAllServicesMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-24 21:04:48.819 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:57678/Contributors - 500 null text/plain; charset=utf-8 101.7337ms
+2024-08-24 21:07:02.485 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:57678/Contributors - application/json 61
+2024-08-24 21:07:02.486 +01:00 [INF] Executing endpoint 'HTTP: POST /Contributors'
+2024-08-24 21:07:02.498 +01:00 [INF] Handling CreateContributorCommand
+2024-08-24 21:07:02.498 +01:00 [INF] Property Name : Contributor Name
+2024-08-24 21:07:02.499 +01:00 [INF] Property PhoneNumber : 80634612
+2024-08-24 21:07:02.555 +01:00 [INF] Executed endpoint 'HTTP: POST /Contributors'
+2024-08-24 21:07:02.557 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot resolve scoped service 'Ardalis.SharedKernel.IDomainEventDispatcher' from root provider.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.EntityFrameworkCore.Internal.DbContextPool`1.<>c__DisplayClass6_0.<CreateActivator>b__2()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextPool`1.Rent()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextLease..ctor(IDbContextPool contextPool, Boolean standalone)
+   at Microsoft.EntityFrameworkCore.Internal.ScopedDbContextLease`1..ctor(IDbContextPool`1 contextPool)
+   at InvokeStub_ScopedDbContextLease`1..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__5`2.<AddDbContextPool>b__5_0(IServiceProvider sp)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_0.<Handle>g__Handler|0()
+   at Ardalis.SharedKernel.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at john.cleansample.Web.Contributors.Create.HandleAsync(CreateContributorRequest request, CancellationToken cancellationToken) in E:\Johni\CLEANArchitecture\ASPNET_CLEAN_Example\john.cleansample\src\john.cleansample.Web\Contributors\Create.cs:line 33
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at NSwag.AspNetCore.Middlewares.SwaggerUiIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.RedirectToIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.OpenApiDocumentMiddleware.Invoke(HttpContext context)
+   at Ardalis.ListStartupServices.ShowAllServicesMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-24 21:07:02.563 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:57678/Contributors - 500 null text/plain; charset=utf-8 80.3382ms
+2024-08-24 21:07:10.498 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:57678/Contributors - application/json 59
+2024-08-24 21:07:10.499 +01:00 [INF] Executing endpoint 'HTTP: POST /Contributors'
+2024-08-24 21:07:10.505 +01:00 [INF] Executed endpoint 'HTTP: POST /Contributors'
+2024-08-24 21:07:10.506 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:57678/Contributors - 400 null application/problem+json 8.156ms
+2024-08-24 21:07:20.353 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:57678/Contributors - application/json 59
+2024-08-24 21:07:20.353 +01:00 [INF] Executing endpoint 'HTTP: POST /Contributors'
+2024-08-24 21:07:20.359 +01:00 [INF] Executed endpoint 'HTTP: POST /Contributors'
+2024-08-24 21:07:20.359 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:57678/Contributors - 400 null application/problem+json 6.2686ms
+2024-08-24 21:07:21.725 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:57678/Contributors - application/json 59
+2024-08-24 21:07:21.725 +01:00 [INF] Executing endpoint 'HTTP: POST /Contributors'
+2024-08-24 21:07:21.734 +01:00 [INF] Executed endpoint 'HTTP: POST /Contributors'
+2024-08-24 21:07:21.734 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:57678/Contributors - 400 null application/problem+json 9.4654ms
+2024-08-24 21:07:31.202 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:57678/Contributors - application/json 61
+2024-08-24 21:07:31.203 +01:00 [INF] Executing endpoint 'HTTP: POST /Contributors'
+2024-08-24 21:08:16.494 +01:00 [INF] Handling CreateContributorCommand
+2024-08-24 21:08:16.494 +01:00 [INF] Property Name : Contributor Name
+2024-08-24 21:08:16.494 +01:00 [INF] Property PhoneNumber : 80634612
+2024-08-24 21:08:16.634 +01:00 [INF] Executed endpoint 'HTTP: POST /Contributors'
+2024-08-24 21:08:16.648 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot resolve scoped service 'Ardalis.SharedKernel.IDomainEventDispatcher' from root provider.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.EntityFrameworkCore.Internal.DbContextPool`1.<>c__DisplayClass6_0.<CreateActivator>b__2()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextPool`1.Rent()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextLease..ctor(IDbContextPool contextPool, Boolean standalone)
+   at Microsoft.EntityFrameworkCore.Internal.ScopedDbContextLease`1..ctor(IDbContextPool`1 contextPool)
+   at InvokeStub_ScopedDbContextLease`1..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__5`2.<AddDbContextPool>b__5_0(IServiceProvider sp)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_0.<Handle>g__Handler|0()
+   at Ardalis.SharedKernel.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at john.cleansample.Web.Contributors.Create.HandleAsync(CreateContributorRequest request, CancellationToken cancellationToken) in E:\Johni\CLEANArchitecture\ASPNET_CLEAN_Example\john.cleansample\src\john.cleansample.Web\Contributors\Create.cs:line 33
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at NSwag.AspNetCore.Middlewares.SwaggerUiIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.RedirectToIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.OpenApiDocumentMiddleware.Invoke(HttpContext context)
+   at Ardalis.ListStartupServices.ShowAllServicesMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-24 21:08:16.656 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:57678/Contributors - 500 null text/plain; charset=utf-8 45453.6761ms
+2024-08-24 21:08:41.663 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:57678/Contributors - application/json 61
+2024-08-24 21:08:41.663 +01:00 [INF] Executing endpoint 'HTTP: POST /Contributors'
+2024-08-24 21:08:44.611 +01:00 [INF] Handling CreateContributorCommand
+2024-08-24 21:08:44.612 +01:00 [INF] Property Name : Contributor Name
+2024-08-24 21:08:44.612 +01:00 [INF] Property PhoneNumber : 80634612
+2024-08-24 21:08:44.743 +01:00 [INF] Executed endpoint 'HTTP: POST /Contributors'
+2024-08-24 21:08:44.768 +01:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot resolve scoped service 'Ardalis.SharedKernel.IDomainEventDispatcher' from root provider.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.EntityFrameworkCore.Internal.DbContextPool`1.<>c__DisplayClass6_0.<CreateActivator>b__2()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextPool`1.Rent()
+   at Microsoft.EntityFrameworkCore.Internal.DbContextLease..ctor(IDbContextPool contextPool, Boolean standalone)
+   at Microsoft.EntityFrameworkCore.Internal.ScopedDbContextLease`1..ctor(IDbContextPool`1 contextPool)
+   at InvokeStub_ScopedDbContextLease`1..ctor(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.EntityFrameworkServiceCollectionExtensions.<>c__5`2.<AddDbContextPool>b__5_0(IServiceProvider sp)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_0.<Handle>g__Handler|0()
+   at Ardalis.SharedKernel.LoggingBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken)
+   at john.cleansample.Web.Contributors.Create.HandleAsync(CreateContributorRequest request, CancellationToken cancellationToken) in E:\Johni\CLEANArchitecture\ASPNET_CLEAN_Example\john.cleansample\src\john.cleansample.Web\Contributors\Create.cs:line 33
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at FastEndpoints.Endpoint`2.ExecAsync(CancellationToken ct)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at NSwag.AspNetCore.Middlewares.SwaggerUiIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.RedirectToIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.OpenApiDocumentMiddleware.Invoke(HttpContext context)
+   at Ardalis.ListStartupServices.ShowAllServicesMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-24 21:08:44.775 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:57678/Contributors - 500 null text/plain; charset=utf-8 3113.9674ms
+2024-08-24 21:10:33.159 +01:00 [INF] Registered 5 endpoints in 943 milliseconds.
+2024-08-24 21:10:36.229 +01:00 [INF] Executed DbCommand (59ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2024-08-24 21:10:36.797 +01:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Contributors" AS "c")
+2024-08-24 21:10:37.010 +01:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2024-08-24 21:10:37.054 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger - null null
+2024-08-24 21:10:37.239 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-24 21:10:37.240 +01:00 [INF] Hosting environment: Development
+2024-08-24 21:10:37.240 +01:00 [INF] Content root path: E:\Johni\CLEANArchitecture\ASPNET_CLEAN_Example\john.cleansample\src\john.cleansample.Web
+2024-08-24 21:10:37.405 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/index.html - null null
+2024-08-24 21:10:37.413 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger - 302 null null 370.6001ms
+2024-08-24 21:10:37.723 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/index.html - 200 null text/html; charset=utf-8 317.6451ms
+2024-08-24 21:10:37.809 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-24 21:10:37.818 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript; charset=utf-8 8.0245ms
+2024-08-24 21:10:37.820 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/_vs/browserLink - null null
+2024-08-24 21:10:37.903 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/_vs/browserLink - 200 null text/javascript; charset=UTF-8 83.7296ms
+2024-08-24 21:10:38.611 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - null null
+2024-08-24 21:10:39.913 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 1301.3273ms
+2024-08-24 21:11:23.690 +01:00 [INF] Request starting HTTP/1.1 POST http://localhost:57678/Contributors - application/json 61
+2024-08-24 21:11:23.696 +01:00 [WRN] Failed to determine the https port for redirect.
+2024-08-24 21:11:23.705 +01:00 [INF] Executing endpoint 'HTTP: POST /Contributors'
+2024-08-24 21:11:27.769 +01:00 [INF] Handling CreateContributorCommand
+2024-08-24 21:11:27.770 +01:00 [INF] Property Name : Contributor Name
+2024-08-24 21:11:27.771 +01:00 [INF] Property PhoneNumber : 80634612
+2024-08-24 21:12:05.583 +01:00 [INF] Executed DbCommand (13ms) [Parameters=[@p0='?' (Size = 16), @p1='?' (DbType = Int32), @p2='?', @p3='?', @p4='?' (Size = 8)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Contributors" ("Name", "Status", "PhoneNumber_CountryCode", "PhoneNumber_Extension", "PhoneNumber_Number")
+VALUES (@p0, @p1, @p2, @p3, @p4)
+RETURNING "Id";
+2024-08-24 21:12:07.988 +01:00 [INF] Handled CreateContributorCommand with Ardalis.Result.Result`1[System.Int32] in 40216 ms
+2024-08-24 21:12:11.239 +01:00 [INF] Executed endpoint 'HTTP: POST /Contributors'
+2024-08-24 21:12:11.254 +01:00 [INF] Request finished HTTP/1.1 POST http://localhost:57678/Contributors - 200 null application/json 47564.1466ms
+2024-08-24 21:12:51.096 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/Contributors - null null
+2024-08-24 21:12:51.104 +01:00 [INF] Executing endpoint 'HTTP: GET /Contributors'
+2024-08-24 21:12:51.130 +01:00 [INF] Handling ListContributorsQuery
+2024-08-24 21:12:51.131 +01:00 [INF] Property Skip : null
+2024-08-24 21:12:51.132 +01:00 [INF] Property Take : null
+2024-08-24 21:12:51.324 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT Id, Name, PhoneNumber_Number AS PhoneNumber FROM Contributors
+2024-08-24 21:12:51.335 +01:00 [INF] Handled ListContributorsQuery with Ardalis.Result.Result`1[System.Collections.Generic.IEnumerable`1[john.cleansample.UseCases.Contributors.ContributorDTO]] in 202 ms
+2024-08-24 21:12:51.345 +01:00 [INF] Executed endpoint 'HTTP: GET /Contributors'
+2024-08-24 21:12:51.346 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/Contributors - 200 null application/json 253.4532ms
+2024-08-24 21:13:13.326 +01:00 [INF] Request starting HTTP/1.1 GET http://localhost:57678/Contributors/3 - null null
+2024-08-24 21:13:13.334 +01:00 [INF] Executing endpoint 'HTTP: GET /Contributors/{ContributorId:int}'
+2024-08-24 21:13:13.349 +01:00 [INF] Handling GetContributorQuery
+2024-08-24 21:13:13.350 +01:00 [INF] Property ContributorId : 3
+2024-08-24 21:13:13.487 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[@__request_ContributorId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "c"."Id", "c"."Name", "c"."Status", "c"."PhoneNumber_CountryCode", "c"."PhoneNumber_Extension", "c"."PhoneNumber_Number"
+FROM "Contributors" AS "c"
+WHERE "c"."Id" = @__request_ContributorId_0
+LIMIT 1
+2024-08-24 21:13:13.498 +01:00 [INF] Handled GetContributorQuery with Ardalis.Result.Result`1[john.cleansample.UseCases.Contributors.ContributorDTO] in 148 ms
+2024-08-24 21:13:13.499 +01:00 [INF] Executed endpoint 'HTTP: GET /Contributors/{ContributorId:int}'
+2024-08-24 21:13:13.501 +01:00 [INF] Request finished HTTP/1.1 GET http://localhost:57678/Contributors/3 - 200 null application/json 175.3794ms

@@ -1,0 +1,16 @@
+E:\Johni\CLEANArchitecture\ASPNET_CLEAN_Example\john.cleansample\src\john.cleansample.UseCases\bin\Debug\net8.0\john.cleansample.UseCases.deps.json
+E:\Johni\CLEANArchitecture\ASPNET_CLEAN_Example\john.cleansample\src\john.cleansample.UseCases\bin\Debug\net8.0\john.cleansample.UseCases.dll
+E:\Johni\CLEANArchitecture\ASPNET_CLEAN_Example\john.cleansample\src\john.cleansample.UseCases\bin\Debug\net8.0\john.cleansample.UseCases.pdb
+E:\Johni\CLEANArchitecture\ASPNET_CLEAN_Example\john.cleansample\src\john.cleansample.UseCases\bin\Debug\net8.0\john.cleansample.Core.dll
+E:\Johni\CLEANArchitecture\ASPNET_CLEAN_Example\john.cleansample\src\john.cleansample.UseCases\bin\Debug\net8.0\john.cleansample.Core.pdb
+E:\Johni\CLEANArchitecture\ASPNET_CLEAN_Example\john.cleansample\src\john.cleansample.UseCases\obj\Debug\net8.0\john.cleansample.UseCases.csproj.AssemblyReference.cache
+E:\Johni\CLEANArchitecture\ASPNET_CLEAN_Example\john.cleansample\src\john.cleansample.UseCases\obj\Debug\net8.0\john.cleansample.UseCases.GeneratedMSBuildEditorConfig.editorconfig
+E:\Johni\CLEANArchitecture\ASPNET_CLEAN_Example\john.cleansample\src\john.cleansample.UseCases\obj\Debug\net8.0\john.cleansample.UseCases.AssemblyInfoInputs.cache
+E:\Johni\CLEANArchitecture\ASPNET_CLEAN_Example\john.cleansample\src\john.cleansample.UseCases\obj\Debug\net8.0\john.cleansample.UseCases.AssemblyInfo.cs
+E:\Johni\CLEANArchitecture\ASPNET_CLEAN_Example\john.cleansample\src\john.cleansample.UseCases\obj\Debug\net8.0\john.cleansample.UseCases.csproj.CoreCompileInputs.cache
+E:\Johni\CLEANArchitecture\ASPNET_CLEAN_Example\john.cleansample\src\john.cleansample.UseCases\obj\Debug\net8.0\john.cleansample.UseCases.sourcelink.json
+E:\Johni\CLEANArchitecture\ASPNET_CLEAN_Example\john.cleansample\src\john.cleansample.UseCases\obj\Debug\net8.0\john.cle.07C3686A.Up2Date
+E:\Johni\CLEANArchitecture\ASPNET_CLEAN_Example\john.cleansample\src\john.cleansample.UseCases\obj\Debug\net8.0\john.cleansample.UseCases.dll
+E:\Johni\CLEANArchitecture\ASPNET_CLEAN_Example\john.cleansample\src\john.cleansample.UseCases\obj\Debug\net8.0\refint\john.cleansample.UseCases.dll
+E:\Johni\CLEANArchitecture\ASPNET_CLEAN_Example\john.cleansample\src\john.cleansample.UseCases\obj\Debug\net8.0\john.cleansample.UseCases.pdb
+E:\Johni\CLEANArchitecture\ASPNET_CLEAN_Example\john.cleansample\src\john.cleansample.UseCases\obj\Debug\net8.0\ref\john.cleansample.UseCases.dll

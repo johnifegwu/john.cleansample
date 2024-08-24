@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "/mNBLF5ksk5hFSAZztZ88s0YdMcIiNVNI9exKVKdyBM=",
+  "Source": "john.cleansample.Web",
+  "BasePath": "_content/john.cleansample.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "john.cleansample.Web\\wwwroot",
+      "Source": "john.cleansample.Web",
+      "ContentRoot": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Web\\wwwroot\\",
+      "BasePath": "_content/john.cleansample.Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Web\\wwwroot\\.gitkeep",
+      "SourceId": "john.cleansample.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Web\\wwwroot\\",
+      "BasePath": "_content/john.cleansample.Web",
+      "RelativePath": ".gitkeep",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\.gitkeep"
+    }
+  ]
+}

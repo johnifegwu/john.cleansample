@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("john.cleansample.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb1c07c6114d7ebaa3218b10e6343f28b1211ab3")]
 [assembly: System.Reflection.AssemblyProductAttribute("john.cleansample.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("john.cleansample.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>john.cleansample.Web</name>
+    </assembly>
+    <members>
+        <member name="T:john.cleansample.Web.Contributors.CreateContributorValidator">
+            <summary>
+            See: https://fast-endpoints.com/docs/validation
+            </summary>
+        </member>
+        <member name="T:john.cleansample.Web.Contributors.Create">
+            <summary>
+            Create a new Contributor
+            </summary>
+            <remarks>
+            Creates a new Contributor given a name.
+            </remarks>
+        </member>
+        <member name="M:john.cleansample.Web.Contributors.Create.#ctor(MediatR.IMediator)">
+            <summary>
+            Create a new Contributor
+            </summary>
+            <remarks>
+            Creates a new Contributor given a name.
+            </remarks>
+        </member>
+        <member name="T:john.cleansample.Web.Contributors.Delete">
+            <summary>
+            Delete a Contributor.
+            </summary>
+            <remarks>
+            Delete a Contributor by providing a valid integer id.
+            </remarks>
+        </member>
+        <member name="M:john.cleansample.Web.Contributors.Delete.#ctor(MediatR.IMediator)">
+            <summary>
+            Delete a Contributor.
+            </summary>
+            <remarks>
+            Delete a Contributor by providing a valid integer id.
+            </remarks>
+        </member>
+        <member name="T:john.cleansample.Web.Contributors.DeleteContributorValidator">
+            <summary>
+            See: https://fast-endpoints.com/docs/validation
+            </summary>
+        </member>
+        <member name="T:john.cleansample.Web.Contributors.GetById">
+            <summary>
+            Get a Contributor by integer ID.
+            </summary>
+            <remarks>
+            Takes a positive integer ID and returns a matching Contributor record.
+            </remarks>
+        </member>
+        <member name="M:john.cleansample.Web.Contributors.GetById.#ctor(MediatR.IMediator)">
+            <summary>
+            Get a Contributor by integer ID.
+            </summary>
+            <remarks>
+            Takes a positive integer ID and returns a matching Contributor record.
+            </remarks>
+        </member>
+        <member name="T:john.cleansample.Web.Contributors.GetContributorValidator">
+            <summary>
+            See: https://fast-endpoints.com/docs/validation
+            </summary>
+        </member>
+        <member name="T:john.cleansample.Web.Contributors.List">
+            <summary>
+            List all Contributors
+            </summary>
+            <remarks>
+            List all contributors - returns a ContributorListResponse containing the Contributors.
+            </remarks>
+        </member>
+        <member name="M:john.cleansample.Web.Contributors.List.#ctor(MediatR.IMediator)">
+            <summary>
+            List all Contributors
+            </summary>
+            <remarks>
+            List all contributors - returns a ContributorListResponse containing the Contributors.
+            </remarks>
+        </member>
+        <member name="T:john.cleansample.Web.Contributors.Update">
+            <summary>
+            Update an existing Contributor.
+            </summary>
+            <remarks>
+            Update an existing Contributor by providing a fully defined replacement set of values.
+            See: https://stackoverflow.com/questions/60761955/rest-update-best-practice-put-collection-id-without-id-in-body-vs-put-collecti
+            </remarks>
+        </member>
+        <member name="M:john.cleansample.Web.Contributors.Update.#ctor(MediatR.IMediator)">
+            <summary>
+            Update an existing Contributor.
+            </summary>
+            <remarks>
+            Update an existing Contributor by providing a fully defined replacement set of values.
+            See: https://stackoverflow.com/questions/60761955/rest-update-best-practice-put-collection-id-without-id-in-body-vs-put-collecti
+            </remarks>
+        </member>
+        <member name="T:john.cleansample.Web.Contributors.UpdateContributorValidator">
+            <summary>
+            See: https://fast-endpoints.com/docs/validation
+            </summary>
+        </member>
+    </members>
+</doc>
