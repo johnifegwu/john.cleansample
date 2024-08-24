@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{220361D6-9C76-4E3F-BD34-3C7B50E2CA4D}|src\\john.cleansample.Infrastructure\\john.cleansample.Infrastructure.csproj|e:\\johni\\cleanarchitecture\\aspnet_clean_example\\john.cleansample\\src\\john.cleansample.infrastructure\\infrastructureserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{220361D6-9C76-4E3F-BD34-3C7B50E2CA4D}|src\\john.cleansample.Infrastructure\\john.cleansample.Infrastructure.csproj|solutionrelative:src\\john.cleansample.infrastructure\\infrastructureserviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9751CB7-4CD6-4633-A99A-4F6ADD525437}|src\\john.cleansample.Web\\john.cleansample.Web.csproj|e:\\johni\\cleanarchitecture\\aspnet_clean_example\\john.cleansample\\src\\john.cleansample.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9751CB7-4CD6-4633-A99A-4F6ADD525437}|src\\john.cleansample.Web\\john.cleansample.Web.csproj|solutionrelative:src\\john.cleansample.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9751CB7-4CD6-4633-A99A-4F6ADD525437}|src\\john.cleansample.Web\\john.cleansample.Web.csproj|e:\\johni\\cleanarchitecture\\aspnet_clean_example\\john.cleansample\\src\\john.cleansample.web\\contributors\\create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9751CB7-4CD6-4633-A99A-4F6ADD525437}|src\\john.cleansample.Web\\john.cleansample.Web.csproj|solutionrelative:src\\john.cleansample.web\\contributors\\create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B74A78FF-B79E-4C38-A9C7-084A90990CAD}|src\\john.cleansample.UseCases\\john.cleansample.UseCases.csproj|e:\\johni\\cleanarchitecture\\aspnet_clean_example\\john.cleansample\\src\\john.cleansample.usecases\\contributors\\get\\getcontributorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B74A78FF-B79E-4C38-A9C7-084A90990CAD}|src\\john.cleansample.UseCases\\john.cleansample.UseCases.csproj|solutionrelative:src\\john.cleansample.usecases\\contributors\\get\\getcontributorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B74A78FF-B79E-4C38-A9C7-084A90990CAD}|src\\john.cleansample.UseCases\\john.cleansample.UseCases.csproj|e:\\johni\\cleanarchitecture\\aspnet_clean_example\\john.cleansample\\src\\john.cleansample.usecases\\contributors\\create\\createcontributorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B74A78FF-B79E-4C38-A9C7-084A90990CAD}|src\\john.cleansample.UseCases\\john.cleansample.UseCases.csproj|solutionrelative:src\\john.cleansample.usecases\\contributors\\create\\createcontributorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B74A78FF-B79E-4C38-A9C7-084A90990CAD}|src\\john.cleansample.UseCases\\john.cleansample.UseCases.csproj|e:\\johni\\cleanarchitecture\\aspnet_clean_example\\john.cleansample\\src\\john.cleansample.usecases\\contributors\\create\\createcontributorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B74A78FF-B79E-4C38-A9C7-084A90990CAD}|src\\john.cleansample.UseCases\\john.cleansample.UseCases.csproj|solutionrelative:src\\john.cleansample.usecases\\contributors\\create\\createcontributorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9751CB7-4CD6-4633-A99A-4F6ADD525437}|src\\john.cleansample.Web\\john.cleansample.Web.csproj|e:\\johni\\cleanarchitecture\\aspnet_clean_example\\john.cleansample\\src\\john.cleansample.web\\contributors\\create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9751CB7-4CD6-4633-A99A-4F6ADD525437}|src\\john.cleansample.Web\\john.cleansample.Web.csproj|solutionrelative:src\\john.cleansample.web\\contributors\\create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B74A78FF-B79E-4C38-A9C7-084A90990CAD}|src\\john.cleansample.UseCases\\john.cleansample.UseCases.csproj|e:\\johni\\cleanarchitecture\\aspnet_clean_example\\john.cleansample\\src\\john.cleansample.usecases\\contributors\\get\\getcontributorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B74A78FF-B79E-4C38-A9C7-084A90990CAD}|src\\john.cleansample.UseCases\\john.cleansample.UseCases.csproj|solutionrelative:src\\john.cleansample.usecases\\contributors\\get\\getcontributorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B74A78FF-B79E-4C38-A9C7-084A90990CAD}|src\\john.cleansample.UseCases\\john.cleansample.UseCases.csproj|e:\\johni\\cleanarchitecture\\aspnet_clean_example\\john.cleansample\\src\\john.cleansample.usecases\\contributors\\create\\createcontributorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B74A78FF-B79E-4C38-A9C7-084A90990CAD}|src\\john.cleansample.UseCases\\john.cleansample.UseCases.csproj|solutionrelative:src\\john.cleansample.usecases\\contributors\\create\\createcontributorcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{220361D6-9C76-4E3F-BD34-3C7B50E2CA4D}|src\\john.cleansample.Infrastructure\\john.cleansample.Infrastructure.csproj|e:\\johni\\cleanarchitecture\\aspnet_clean_example\\john.cleansample\\src\\john.cleansample.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,21 +50,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "InfrastructureServiceExtensions.cs",
-              "DocumentMoniker": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Infrastructure\\InfrastructureServiceExtensions.cs",
-              "RelativeDocumentMoniker": "src\\john.cleansample.Infrastructure\\InfrastructureServiceExtensions.cs",
-              "ToolTip": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Infrastructure\\InfrastructureServiceExtensions.cs",
-              "RelativeToolTip": "src\\john.cleansample.Infrastructure\\InfrastructureServiceExtensions.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAkwBoAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T20:10:00.643Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -91,20 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Web\\Program.cs",
-              "RelativeDocumentMoniker": "src\\john.cleansample.Web\\Program.cs",
-              "ToolTip": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Web\\Program.cs",
-              "RelativeToolTip": "src\\john.cleansample.Web\\Program.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAACsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T20:09:44.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "GetContributorHandler.cs",
               "DocumentMoniker": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.UseCases\\Contributors\\Get\\GetContributorHandler.cs",
               "RelativeDocumentMoniker": "src\\john.cleansample.UseCases\\Contributors\\Get\\GetContributorHandler.cs",
@@ -117,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "ListContributorsQueryService.cs",
               "DocumentMoniker": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Infrastructure\\Data\\Queries\\ListContributorsQueryService.cs",
               "RelativeDocumentMoniker": "src\\john.cleansample.Infrastructure\\Data\\Queries\\ListContributorsQueryService.cs",
@@ -130,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "EfRepositoryAdd.cs",
               "DocumentMoniker": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\tests\\john.cleansample.IntegrationTests\\Data\\EfRepositoryAdd.cs",
               "RelativeDocumentMoniker": "tests\\john.cleansample.IntegrationTests\\Data\\EfRepositoryAdd.cs",
@@ -143,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "BaseEfRepoTestFixture.cs",
               "DocumentMoniker": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\tests\\john.cleansample.IntegrationTests\\Data\\BaseEfRepoTestFixture.cs",
               "RelativeDocumentMoniker": "tests\\john.cleansample.IntegrationTests\\Data\\BaseEfRepoTestFixture.cs",
@@ -156,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "EfRepository.cs",
               "DocumentMoniker": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Infrastructure\\Data\\EfRepository.cs",
               "RelativeDocumentMoniker": "src\\john.cleansample.Infrastructure\\Data\\EfRepository.cs",
@@ -175,14 +141,14 @@
               "RelativeDocumentMoniker": "src\\john.cleansample.Web\\Contributors\\Create.cs",
               "ToolTip": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Web\\Contributors\\Create.cs",
               "RelativeToolTip": "src\\john.cleansample.Web\\Contributors\\Create.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-15T14:48:58.139Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
               "Title": "CreateContributorHandlerHandle.cs",
               "DocumentMoniker": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\tests\\john.cleansample.UnitTests\\UseCases\\Contributors\\CreateContributorHandlerHandle.cs",
               "RelativeDocumentMoniker": "tests\\john.cleansample.UnitTests\\UseCases\\Contributors\\CreateContributorHandlerHandle.cs",
@@ -195,7 +161,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "CreateContributorHandler.cs",
               "DocumentMoniker": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.UseCases\\Contributors\\Create\\CreateContributorHandler.cs",
               "RelativeDocumentMoniker": "src\\john.cleansample.UseCases\\Contributors\\Create\\CreateContributorHandler.cs",
@@ -208,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "CreateContributorCommand.cs",
               "DocumentMoniker": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.UseCases\\Contributors\\Create\\CreateContributorCommand.cs",
               "RelativeDocumentMoniker": "src\\john.cleansample.UseCases\\Contributors\\Create\\CreateContributorCommand.cs",
@@ -221,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Infrastructure\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "src\\john.cleansample.Infrastructure\\Data\\AppDbContext.cs",
