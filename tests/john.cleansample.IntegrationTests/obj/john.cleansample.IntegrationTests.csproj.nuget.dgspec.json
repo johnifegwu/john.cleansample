@@ -1,38 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\tests\\john.cleansample.IntegrationTests\\john.cleansample.IntegrationTests.csproj": {}
+    "C:\\Users\\johni\\Projects\\john.cleansample\\tests\\john.cleansample.IntegrationTests\\john.cleansample.IntegrationTests.csproj": {}
   },
   "projects": {
-    "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Core\\john.cleansample.Core.csproj": {
+    "C:\\Users\\johni\\Projects\\john.cleansample\\src\\john.cleansample.Core\\john.cleansample.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Core\\john.cleansample.Core.csproj",
+        "projectUniqueName": "C:\\Users\\johni\\Projects\\john.cleansample\\src\\john.cleansample.Core\\john.cleansample.Core.csproj",
         "projectName": "john.cleansample.Core",
-        "projectPath": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Core\\john.cleansample.Core.csproj",
+        "projectPath": "C:\\Users\\johni\\Projects\\john.cleansample\\src\\john.cleansample.Core\\john.cleansample.Core.csproj",
         "packagesPath": "C:\\Users\\johni\\.nuget\\packages\\",
-        "outputPath": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Core\\obj\\",
+        "outputPath": "C:\\Users\\johni\\Projects\\john.cleansample\\src\\john.cleansample.Core\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\NuGet.Config",
+          "C:\\Users\\johni\\Projects\\john.cleansample\\NuGet.Config",
           "C:\\Users\\johni\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -47,10 +45,12 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "Ardalis.GuardClauses": {
@@ -146,46 +146,44 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Infrastructure\\john.cleansample.Infrastructure.csproj": {
+    "C:\\Users\\johni\\Projects\\john.cleansample\\src\\john.cleansample.Infrastructure\\john.cleansample.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Infrastructure\\john.cleansample.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\johni\\Projects\\john.cleansample\\src\\john.cleansample.Infrastructure\\john.cleansample.Infrastructure.csproj",
         "projectName": "john.cleansample.Infrastructure",
-        "projectPath": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Infrastructure\\john.cleansample.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\johni\\Projects\\john.cleansample\\src\\john.cleansample.Infrastructure\\john.cleansample.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\johni\\.nuget\\packages\\",
-        "outputPath": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\johni\\Projects\\john.cleansample\\src\\john.cleansample.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\NuGet.Config",
+          "C:\\Users\\johni\\Projects\\john.cleansample\\NuGet.Config",
           "C:\\Users\\johni\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Core\\john.cleansample.Core.csproj": {
-                "projectPath": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Core\\john.cleansample.Core.csproj"
+              "C:\\Users\\johni\\Projects\\john.cleansample\\src\\john.cleansample.Core\\john.cleansample.Core.csproj": {
+                "projectPath": "C:\\Users\\johni\\Projects\\john.cleansample\\src\\john.cleansample.Core\\john.cleansample.Core.csproj"
               },
-              "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.UseCases\\john.cleansample.UseCases.csproj": {
-                "projectPath": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.UseCases\\john.cleansample.UseCases.csproj"
+              "C:\\Users\\johni\\Projects\\john.cleansample\\src\\john.cleansample.UseCases\\john.cleansample.UseCases.csproj": {
+                "projectPath": "C:\\Users\\johni\\Projects\\john.cleansample\\src\\john.cleansample.UseCases\\john.cleansample.UseCases.csproj"
               }
             }
           }
@@ -200,10 +198,12 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "Ardalis.SharedKernel": {
@@ -320,43 +320,41 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.UseCases\\john.cleansample.UseCases.csproj": {
+    "C:\\Users\\johni\\Projects\\john.cleansample\\src\\john.cleansample.UseCases\\john.cleansample.UseCases.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.UseCases\\john.cleansample.UseCases.csproj",
+        "projectUniqueName": "C:\\Users\\johni\\Projects\\john.cleansample\\src\\john.cleansample.UseCases\\john.cleansample.UseCases.csproj",
         "projectName": "john.cleansample.UseCases",
-        "projectPath": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.UseCases\\john.cleansample.UseCases.csproj",
+        "projectPath": "C:\\Users\\johni\\Projects\\john.cleansample\\src\\john.cleansample.UseCases\\john.cleansample.UseCases.csproj",
         "packagesPath": "C:\\Users\\johni\\.nuget\\packages\\",
-        "outputPath": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.UseCases\\obj\\",
+        "outputPath": "C:\\Users\\johni\\Projects\\john.cleansample\\src\\john.cleansample.UseCases\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\NuGet.Config",
+          "C:\\Users\\johni\\Projects\\john.cleansample\\NuGet.Config",
           "C:\\Users\\johni\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Core\\john.cleansample.Core.csproj": {
-                "projectPath": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Core\\john.cleansample.Core.csproj"
+              "C:\\Users\\johni\\Projects\\john.cleansample\\src\\john.cleansample.Core\\john.cleansample.Core.csproj": {
+                "projectPath": "C:\\Users\\johni\\Projects\\john.cleansample\\src\\john.cleansample.Core\\john.cleansample.Core.csproj"
               }
             }
           }
@@ -371,10 +369,12 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "Ardalis.Result": {
@@ -455,46 +455,44 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\tests\\john.cleansample.IntegrationTests\\john.cleansample.IntegrationTests.csproj": {
+    "C:\\Users\\johni\\Projects\\john.cleansample\\tests\\john.cleansample.IntegrationTests\\john.cleansample.IntegrationTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\tests\\john.cleansample.IntegrationTests\\john.cleansample.IntegrationTests.csproj",
+        "projectUniqueName": "C:\\Users\\johni\\Projects\\john.cleansample\\tests\\john.cleansample.IntegrationTests\\john.cleansample.IntegrationTests.csproj",
         "projectName": "john.cleansample.IntegrationTests",
-        "projectPath": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\tests\\john.cleansample.IntegrationTests\\john.cleansample.IntegrationTests.csproj",
+        "projectPath": "C:\\Users\\johni\\Projects\\john.cleansample\\tests\\john.cleansample.IntegrationTests\\john.cleansample.IntegrationTests.csproj",
         "packagesPath": "C:\\Users\\johni\\.nuget\\packages\\",
-        "outputPath": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\tests\\john.cleansample.IntegrationTests\\obj\\",
+        "outputPath": "C:\\Users\\johni\\Projects\\john.cleansample\\tests\\john.cleansample.IntegrationTests\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\NuGet.Config",
+          "C:\\Users\\johni\\Projects\\john.cleansample\\NuGet.Config",
           "C:\\Users\\johni\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Infrastructure\\john.cleansample.Infrastructure.csproj": {
-                "projectPath": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Infrastructure\\john.cleansample.Infrastructure.csproj"
+              "C:\\Users\\johni\\Projects\\john.cleansample\\src\\john.cleansample.Infrastructure\\john.cleansample.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\johni\\Projects\\john.cleansample\\src\\john.cleansample.Infrastructure\\john.cleansample.Infrastructure.csproj"
               },
-              "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\tests\\john.cleansample.UnitTests\\john.cleansample.UnitTests.csproj": {
-                "projectPath": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\tests\\john.cleansample.UnitTests\\john.cleansample.UnitTests.csproj"
+              "C:\\Users\\johni\\Projects\\john.cleansample\\tests\\john.cleansample.UnitTests\\john.cleansample.UnitTests.csproj": {
+                "projectPath": "C:\\Users\\johni\\Projects\\john.cleansample\\tests\\john.cleansample.UnitTests\\john.cleansample.UnitTests.csproj"
               }
             }
           }
@@ -509,10 +507,12 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.Mvc.Testing": {
@@ -607,46 +607,44 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\tests\\john.cleansample.UnitTests\\john.cleansample.UnitTests.csproj": {
+    "C:\\Users\\johni\\Projects\\john.cleansample\\tests\\john.cleansample.UnitTests\\john.cleansample.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\tests\\john.cleansample.UnitTests\\john.cleansample.UnitTests.csproj",
+        "projectUniqueName": "C:\\Users\\johni\\Projects\\john.cleansample\\tests\\john.cleansample.UnitTests\\john.cleansample.UnitTests.csproj",
         "projectName": "john.cleansample.UnitTests",
-        "projectPath": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\tests\\john.cleansample.UnitTests\\john.cleansample.UnitTests.csproj",
+        "projectPath": "C:\\Users\\johni\\Projects\\john.cleansample\\tests\\john.cleansample.UnitTests\\john.cleansample.UnitTests.csproj",
         "packagesPath": "C:\\Users\\johni\\.nuget\\packages\\",
-        "outputPath": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\tests\\john.cleansample.UnitTests\\obj\\",
+        "outputPath": "C:\\Users\\johni\\Projects\\john.cleansample\\tests\\john.cleansample.UnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\NuGet.Config",
+          "C:\\Users\\johni\\Projects\\john.cleansample\\NuGet.Config",
           "C:\\Users\\johni\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
+            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Core\\john.cleansample.Core.csproj": {
-                "projectPath": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.Core\\john.cleansample.Core.csproj"
+              "C:\\Users\\johni\\Projects\\john.cleansample\\src\\john.cleansample.Core\\john.cleansample.Core.csproj": {
+                "projectPath": "C:\\Users\\johni\\Projects\\john.cleansample\\src\\john.cleansample.Core\\john.cleansample.Core.csproj"
               },
-              "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.UseCases\\john.cleansample.UseCases.csproj": {
-                "projectPath": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.UseCases\\john.cleansample.UseCases.csproj"
+              "C:\\Users\\johni\\Projects\\john.cleansample\\src\\john.cleansample.UseCases\\john.cleansample.UseCases.csproj": {
+                "projectPath": "C:\\Users\\johni\\Projects\\john.cleansample\\src\\john.cleansample.UseCases\\john.cleansample.UseCases.csproj"
               }
             }
           }
@@ -661,10 +659,12 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.300"
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "FluentAssertions": {
@@ -764,7 +764,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

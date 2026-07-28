@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3gZHZw4MeTg=",
+  "dgSpecHash": "2SVwR5Ts7Sg=",
   "success": true,
-  "projectFilePath": "E:\\Johni\\CLEANArchitecture\\ASPNET_CLEAN_Example\\john.cleansample\\src\\john.cleansample.UseCases\\john.cleansample.UseCases.csproj",
+  "projectFilePath": "C:\\Users\\johni\\Projects\\john.cleansample\\src\\john.cleansample.UseCases\\john.cleansample.UseCases.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\johni\\.nuget\\packages\\ardalis.guardclauses\\4.5.0\\ardalis.guardclauses.4.5.0.nupkg.sha512",
     "C:\\Users\\johni\\.nuget\\packages\\ardalis.result\\8.0.0\\ardalis.result.8.0.0.nupkg.sha512",
